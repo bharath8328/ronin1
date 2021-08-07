@@ -6,8 +6,8 @@
 .fade-in{
     opacity: 0.2;
     margin-top: 100px;
-    transition: margin-top 1s ease-in,opacity 1s ease-in;
-    -webkit-transition-property: margin-top 1s ease-in,opacity 1s ease-in;
+    transition: margin-top 1s ease-in,opacity 500ms ease-in;
+    -webkit-transition-property: margin-top 1s ease-in,opacity 500ms ease-in;
 }
 .fade-in.appear{
     opacity: 1;
